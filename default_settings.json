@@ -1,0 +1,26 @@
+{
+    "kcdip": {
+        "method": "kcdip",
+        "double_arm": true,
+        "kspace_mse": true,
+        "kspace_mse_shape": "v",
+        "kspace_boundary": true,
+        "num_iter": 20000
+    },
+    "dip": {
+        "method": "dip",
+        "double_arm": false,
+        "kspace_mse": false,
+        "kspace_mse_shape": false,
+        "kspace_boundary": false,
+        "num_iter": 10000
+    },
+    "diptv": {
+        "method": "diptv",
+        "double_arm": false,
+        "kspace_mse": false,
+        "kspace_mse_shape": false,
+        "kspace_boundary": false,
+        "num_iter": 10000
+    }
+}
